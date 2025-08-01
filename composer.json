@@ -1,0 +1,21 @@
+{
+    "name": "mbran/acf-blocks-cli",
+    "description": "A command line interface for managing ACF blocks in WordPress.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AcfBlocksCli\\": "src/"
+        }
+    },
+    "bin": ["bin/acf-block"],
+    "authors": [
+        {
+            "name": "Miloszel",
+            "email": "m.branewicz@wp.pl"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^6.0"
+    }
+}
