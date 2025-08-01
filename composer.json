@@ -7,7 +7,7 @@
             "AcfBlocksCli\\": "src/"
         }
     },
-    "bin": ["bin/acf-block"],
+    "bin": ["bin/acf-block-cli"],
     "authors": [
         {
             "name": "Miloszel",
