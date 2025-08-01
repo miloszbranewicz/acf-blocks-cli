@@ -1,6 +1,19 @@
 #!/usr/bin/env php
 <?php
 
+// Find the correct autoload.php file
+if (file_exists(__DIR__ . '/../../../autoload.php')) {
+    // Installed as a dependency
+    require __DIR__ . '/../../../autoload.php';
+} elseif (file_exists(__DIR__ . '/../vendor/autoload.php')) {
+    // Local development
+    require __DIR__ . '/../vendor/autoload.php';
+} else {
+    echo "Error: Composer autoload.php not found.\n";
+    echo "Please run 'composer install' first.\n";
+    exit(1);
+}
+
 use Symfony\Component\Console\Application;
 use AcfBlocksCli\Command\MakeBlockCommand;
 
