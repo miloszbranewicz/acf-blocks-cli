@@ -18,6 +18,4 @@
         "php": ">=8.1",
         "symfony/console": "^6.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
 }
