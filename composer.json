@@ -1,6 +1,7 @@
 {
     "name": "mbran/acf-blocks-cli",
     "description": "A command line interface for managing ACF blocks in WordPress.",
+    "version": "1.0.1",
     "type": "library",
     "autoload": {
         "psr-4": {
