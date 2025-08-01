@@ -7,7 +7,9 @@
             "AcfBlocksCli\\": "src/"
         }
     },
-    "bin": ["bin/acf-block-cli"],
+    "bin": [
+        "bin/acf-block-cli"
+    ],
     "authors": [
         {
             "name": "Miloszel",
@@ -17,5 +19,5 @@
     "require": {
         "php": ">=8.1",
         "symfony/console": "^6.0"
-    },
+    }
 }
